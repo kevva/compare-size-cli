@@ -1,0 +1,45 @@
+{
+  "name": "compare-size-cli",
+  "version": "0.0.0",
+  "description": "Compare size between two files",
+  "license": "MIT",
+  "repository": "kevva/compare-size-cli",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "bin": {
+    "compare-size": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "compare",
+    "file",
+    "fs",
+    "size"
+  ],
+  "dependencies": {
+    "compare-size": "^3.0.0",
+    "meow": "^3.7.0",
+    "pretty-bytes": "^4.0.2"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.4.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
